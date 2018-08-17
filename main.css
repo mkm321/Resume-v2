@@ -1,0 +1,165 @@
+.main-adjust {
+    width: 1024px;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px 0 #AFBBBF;
+    padding: 2px;
+}
+
+.header-adjust {
+    background-color: #CCA300;
+    width: 1003px;
+    height: 145px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header-baner {
+    width: 60%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.inside-header {
+    border: 1px solid black;
+    color: #CCA300;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.spacing{
+    letter-spacing: 10px;
+    word-spacing: 2px;
+}
+.letter{
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.profile-section {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1003px;
+    margin-bottom: 20px;
+}
+.profile-pic{
+    width: 190px;
+    height: 190px;
+}
+.profile-section section:nth-of-type(1) {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.profile-section section:nth-of-type(2) {
+    flex-grow: 3;
+}
+
+.profile-section section:nth-of-type(3) {
+    flex-grow: 1;
+}
+
+.profile-data {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.left-profile-section {
+    /* border: 1px solid black; */
+    margin-right: 50px;
+}
+
+.middle-profile-section {
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    text-align: center;
+}
+
+.right-profile-section {
+    /* border: 1px solid black; */
+    line-height: 45px;
+}
+
+.center {
+    text-align: center;
+}
+.horizontal-three-boxes{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 950px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.horizontal-three-boxes section:nth-of-type(1){
+    border: 1px solid black;
+    flex-grow: 2;
+    text-align: center;
+}
+.horizontal-three-boxes section:nth-of-type(2){
+    border: 1px solid black;
+    flex-grow: 2;
+    background-color: #FFCC99;
+    text-align: center;
+}
+.horizontal-three-boxes section:nth-of-type(3){
+    border: 1px solid black;
+    flex-grow: 2;
+    text-align: center;
+    width: 50px;
+}
+.horizontal-three-boxes hr:nth-of-type(1){
+    /* border: 1px solid black; */
+    flex-grow: 1;
+}
+.horizontal-three-boxes hr:nth-of-type(2){
+    /* border: 1px solid black; */
+    flex-grow: 1;
+}
+.table-section{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+tbody {
+    font-family: Verdana;
+}
+
+.col {
+    font-size: 0.78em;
+    color: #727272;
+    text-align: left;
+    width: 47%;
+}
+table {
+    border: 1px;
+    width: 98%;
+}
+
+td.lefts {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+td.left {
+    text-align: left;
+    font-size: 0.75em;
+}
+.expereince{
+    background-color: #FFCC99;
+}
+.section-web-design{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+.web-section{
+    flex-basis: 80%;
+}
+.web{
+    letter-spacing: 3px;
+}
+.aside-web{
+    width: 150px;
+    background-color: #FFCC99;
+    text-align: center;
+    line-height: 23px;
+}
