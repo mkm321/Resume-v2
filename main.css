@@ -1,6 +1,9 @@
 .main-adjust {
     max-width: 1024px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     box-shadow: 0 4px 16px 0 #AFBBBF;
     padding: 2px;
 }
